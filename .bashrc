@@ -10,4 +10,4 @@ PS1='[\u@\h \W]\$ '
 alias ll='ls -l'
 alias la='ls -a'
 
-EDITOR=vim
+export VISUAL=vim
