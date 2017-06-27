@@ -222,7 +222,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute s
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 20
 
-set $mode_monitor (0) Only internal, (1) HDMI Auto, (2) HDMI 1024x786
+set $mode_monitor (0) Only internal, (1) HDMI Auto, (2) HDMI 1024x768
 mode "$mode_monitor" {
 	bindsym 0 exec --no-startup-id xrandr --output HDMI2 --off --output eDP1 --primary --mode 1366x768
 	bindsym 1 exec --no-startup-id xrandr --output HDMI2 --auto --pos 1366x0 --output eDP1 --primary --mode 1366x768
